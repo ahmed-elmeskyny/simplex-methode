@@ -13,7 +13,7 @@ function createObjectif() {
     if (g == variables.length - 1) {
       div.innerHTML = div.innerHTML + `${variables[g]}<span>x${g + 1}</span>`;
     } else {
-      div.innerHTML = div.innerHTML + `${variables[g]}<span>x${g}</span>+`;
+      div.innerHTML = div.innerHTML + `${variables[g]}<span>x${g + 1}</span>+`;
     }
   }
   div.innerHTML = div.innerHTML + ` </p><p><span>Sous contraints </span></p>`;
