@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/fonction2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Méthode du Simplexe</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>combien y a-t-il de contraints ?</h1>
+    </div>
+    <div class="fonction2">
+      <button onclick="decrementContraint() ">
+        <img src="./assets/minus.png" width="15px" id="moins" />
+      </button>
+      <input type="number" value="0" class="nombre-contraint" />
+      <button onclick="incrementeConttraint()">
+        <img src="./assets/plus.png" width="15px" id="plus" />
+      </button>
+    </div>
+    <a href="contraint.html" id="submit"
+      >Suivant<img src="./assets/arrow.png" width="15px"
+    /></a>
+
+    <script src="./js/fonction2.js"></script>
+  </body>
+</html>

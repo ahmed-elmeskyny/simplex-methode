@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/variable.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Méthode du Simplexe</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>combien y a-t-il de variables ?</h1>
+      <p>Un max de 6 variable</p>
+    </div>
+    <div class="variable">
+      <button onclick="decrementVariable()">
+        <img src="./assets/minus.png" width="15px" id="moins" />
+      </button>
+      <input type="number" value="0" class="nombre-variable" />
+      <button onclick="incrementeVariable()">
+        <img src="./assets/plus.png" width="15px" id="plus" />
+      </button>
+    </div>
+    <a href="fonction.html"
+      >Suivant<img src="./assets/arrow.png" width="15px"
+    /></a>
+
+    <script src="./js/variable.js"></script>
+  </body>
+</html>
